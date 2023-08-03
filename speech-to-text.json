@@ -1,0 +1,18 @@
+[
+  {
+    "action": "talk",    
+    "text": "You are listening to a test text-to-speech call made with the Vonage Voice API",
+    "language": "en-AU",
+    "style": 3    
+  },
+  {
+    "action": "input",
+    "type": ["dtmf"],
+    "dtmf": {
+            "maxDigits": 10,
+            "timeOut": 25,
+            "submitOnhash":true
+            },
+      "eventUrl": ["https://107a-148-101-153-82.ngrok-free.app/"]
+    }
+]
